@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  position: relative;
+}
+body input {
+  background: none;
+  outline: none;
+  border: none;
+  border-left: 1px solid #dadada;
+}
+body span {
+  display: inline-block;
+  width: 80px;
+  height: 100%;
+  line-height: 100%;
+}
+body font {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.login {
+  width: 450px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 150px;
+  margin-left: -225px;
+  z-index: 100;
+  box-shadow: 0 9px 30px -6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.login > .icon {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.login > .icon > img {
+  width: 150px;
+}
+.login > .reg-flow {
+  width: 370px;
+  height: 48px;
+  border: 1px solid #dadada;
+  box-shadow: 0 3px 5px -4px rgba(0, 0, 0, 0.4) inset, -1px 0 3px -2px rgba(0, 0, 0, 0.1) inset;
+  margin-bottom: 20px;
+}
+.login > .reg-flow > span {
+  text-align: center;
+}
+.login > .reg-flow > input {
+  height: 100%;
+}
+.login > #submit {
+  width: 370px;
+  height: 48px;
+  box-shadow: 0 3px 5px -4px rgba(0, 0, 0, 0.4) inset;
+  background-color: aquamarine;
+  margin-bottom: 25px;
+}

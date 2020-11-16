@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  user-select: none;
+  font-size: 14px;
+  color: #666;
+}
+body li {
+  list-style: none;
+}
+body a {
+  text-decoration: none;
+}
+body i {
+  font-style: normal;
+}
+body input {
+  background: none;
+  outline: none;
+  border: none;
+}
+header {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: linear-gradient(90deg, #222325, #3b3c3f, #222325);
+}
+header > .tabs-item {
+  width: 1200px;
+  height: 45px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header > .tabs-item > li {
+  font-size: 12px;
+  color: #e5e5e5;
+  font-weight: 700;
+}
+header > .user {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header > .user > .header-user {
+  width: 20px;
+  height: 20px;
+  background: url('../../img/header-user.png') 50% no-repeat;
+  background-position: 1px 2px;
+  background-size: 180%;
+  margin-right: 20px;
+}
+.shoping-main {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  position: relative;
+  z-index: 100;
+}
+.shoping-main > .shoping-inventory {
+  width: 1210px;
+  border: 1px solid #D3D3D3;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.shoping-main > .shoping-inventory > .shoping-title {
+  padding-left: 30px;
+  padding-right: 10px;
+  border-bottom: 1px solid #dbdbdb;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.shoping-main > .shoping-inventory > .shoping-title > h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.6);
+}
+.shoping-main > .shoping-inventory > .shoping-message {
+  width: 100%;
+  height: 38px;
+  color: #838383;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f5f5f5;
+  border-bottom: 1px solid #dbdbdb;
+}
+.shoping-main > .shoping-inventory > .shoping-message > span {
+  font-size: 14px;
+  margin-left: 30px;
+}
+.shoping-main > .shoping-inventory > .shoping-message > .details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shoping-main > .shoping-inventory > .shoping-message > .details > span {
+  width: 137px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shoping-main > .shoping-inventory .shoping-main1 {
+  width: 100%;
+}
+.shoping-main > .shoping-inventory .shoping-main1 > .shop-bg {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.shoping-main > .shoping-inventory .shoping-main1 .choice {
+  width: 22px;
+  height: 20px;
+  border: 1px solid #838383;
+  border-radius: 50%;
+  margin-left: 30px;
+  float: left;
+}
+.shoping-main > .shoping-inventory .shoping-main1 .items-thumb {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #838383;
+  float: left;
+  margin-left: 20px;
+}
+.shoping-main > .shoping-inventory .shoping-main1 .items-thumb img {
+  width: 80px;
+  height: 80px;
+}
+.shoping-main > .shoping-inventory .shoping-main1 .state {
+  width: 400px;
+  float: left;
+  margin-left: 30px;
+}
+.shoping-main > .shoping-inventory .shoping-main1 .state h3 {
+  color: #333333;
+}
+.shoping-main > .shoping-inventory .shoping-main1 .state > li {
+  color: #838383;
+}
+.shoping-main > .shoping-inventory .shoping-main1 .price {
+  width: 60px;
+  float: left;
+  margin-left: 50px;
+}
+.shoping-main > .shoping-inventory .shoping-main1 .item-cols-num {
+  float: left;
+  width: 112px;
+  height: 40px;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+.shoping-main > .shoping-inventory .shoping-main1 .item-cols-num span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #838383;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.shoping-main > .shoping-inventory .shoping-main1 .item-cols-num .button {
+  box-shadow: 1px 1px 2px #333333;
+}
+.shoping-main > .shoping-inventory .shoping-main1 .item-cols-num .down:hover {
+  box-shadow: inset 1px 1px 1px #666;
+}
+.shoping-main > .shoping-inventory .shoping-main1 .item-cols-num .up:hover {
+  box-shadow: inset 1px 1px 1px #666;
+}
+.shoping-main > .shoping-inventory .shoping-main1 .item-cols-num .num {
+  width: 36px;
+  height: 18px;
+  border: none;
+}
+.shoping-main > .shoping-inventory .shoping-main1 .item-cols-num .num > input {
+  width: 36px;
+  height: 18px;
+  text-align: center;
+  font-size: 900;
+}
+.shoping-main > .shoping-inventory .shoping-main1 .subtotal {
+  display: flex;
+  margin-left: 100px;
+}
+.shoping-main > .shoping-inventory .shoping-main1 .operation {
+  width: 22px;
+  height: 20px;
+  border: 1px solid #838383;
+  border-radius: 50%;
+  margin-left: 195px;
+  text-align: center;
+  font-weight: 700;
+  box-shadow: 1px 1px 1px #838383;
+  margin-right: 50px;
+}
+.shoping-main > .shoping-inventory .shoping-main1 .operation:hover {
+  box-shadow: 1px 1px 1px inset #838383;
+}
+#cart-bottom-bg {
+  width: 100%;
+  height: 80px;
+  font-weight: 700;
+  border-top: 1px solid #d9d9d9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#cart-bottom-bg > .cart-bar-operation {
+  display: flex;
+  align-items: center;
+}
+#cart-bottom-bg > .cart-bar-operation > .checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  border: 1px solid #838383;
+  margin-left: 30px;
+}
+#cart-bottom-bg > .cart-bar-operation > span {
+  display: inline-block;
+  margin-left: 5px;
+  padding-right: 5px;
+}
+#cart-bottom-bg > .cart-bar-operation > .delete-choose-goods {
+  border-left: 2px solid #d9d9d9;
+  padding-left: 5px;
+  font-size: 12px;
+  color: #bbb;
+}
+#cart-bottom-bg > .shipping {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#cart-bottom-bg > .shipping i {
+  color: red;
+}
+#cart-bottom-bg > .shipping > .shipping-total {
+  border-right: 2px solid #d9d9d9;
+  padding-right: 10px;
+}
+#cart-bottom-bg > .shipping > .shipping-pridec {
+  padding: 0 0 0 10px;
+  margin-right: 10px;
+}
+#cart-bottom-bg > .shipping > .shipping-buy {
+  height: 44px;
+  padding: 2px 32px;
+  border: 1px solid #d9d9d9;
+  border-radius: 9px;
+  background: #567ce6;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), inset 0 -1px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+#cart-bottom-bg > .shipping > .shipping-buy h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+}
+#cart-bottom-bg > .shipping > .shipping-buy:hover {
+  background-color: blueviolet;
+}
